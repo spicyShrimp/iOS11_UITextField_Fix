@@ -87,6 +87,8 @@ bug已经不见了释放问题得到解决.
 ```
 
 所以整个bug修复的过程就是取消storyboard的secureTextEntry属性,改为手动添加,防止强引用,改为到代理里面设置,让系统自动帮我们打破强引用即可
+
+![这里写图片描述](https://github.com/spicyShrimp/iOS11_UITextField_Fix/blob/master/QQ20170926-091930.gif)
 	
 
 
